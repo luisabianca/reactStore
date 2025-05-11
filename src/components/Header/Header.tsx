@@ -1,6 +1,6 @@
 import { FaCartShopping } from 'react-icons/fa6';
 import { FaStoreAlt } from 'react-icons/fa';
-import Search from './Search/Search';
+import Search from '../Search/Search';
 import './Header.css';
 
 const Header = () => {
