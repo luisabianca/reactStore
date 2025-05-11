@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px ;
+  background-color: rgb(12, 12, 102);
+  color: #f4f4f4;
+  gap: 1rem;
+}
+
+.logo {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo span {
+  font-size: 12px;
+  line-height: 100%;
+  padding-right: 2px;
+}
+
+.logo svg {
+  width: 20px;
+  height: 20px;
+}
+
+.cart-icon {
+  flex-shrink: 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 10px 40px;
+  }
+}
+
